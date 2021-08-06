@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动态服务器</title>
-    <link rel="stylesheet" href="style.css">
+    <title>主页</title>
 </head>
 
 <body>
-    这是index.html
-    <img src="pig.png" alt="pig">
-    <script src="main.js"></script>
+    <p>
+        {{user.name}}
+        <!--  占位符 ,标记用户是否已登录  -->
+        {{loginStatus}}
+
+    </p>
+    <p>
+        <a href="sign_in.html">登录</a>
+    </p>
 </body>
 
 </html>
